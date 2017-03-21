@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Inicio">
+        <menu>
+        <item
+            android:id="@+id/nav_somos"
+            android:icon="@drawable/ic_menu_somos"
+            android:title="Quienes somos" />
+        <item
+            android:id="@+id/nav_directorio"
+            android:icon="@drawable/ic_menu_directorio"
+            android:title="Directorio" />
+
+        </menu>
+    </item>
+
+    <item android:title="Noticias">
+        <menu>
+            <item
+                android:id="@+id/nav_act"
+                android:icon="@drawable/ic_menu_actividades"
+                android:title="Actividades" />
+            <item
+                android:id="@+id/nav_proyectos"
+                android:icon="@drawable/ic_menu_proyectos"
+                android:title="Proyectos" />
+        </menu>
+    </item>
+
+    <item android:title="Servicios">
+        <menu>
+            <item
+                android:id="@+id/nav_bolsae"
+                android:icon="@drawable/ic_menu_bolsae"
+                android:title="Bolsa de Empleos" />
+            <item
+                android:id="@+id/nav_publi"
+                android:icon="@drawable/ic_menu_publicaciones"
+                android:title="Publicaciones" />
+
+            <item
+                android:id="@+id/nav_cursos"
+                android:icon="@drawable/ic_menu_cursos"
+                android:title="Cursos" />
+        </menu>
+    </item>
+
+    <item android:title="Informes">
+        <menu>
+            <item
+                android:id="@+id/nav_obleg"
+                android:icon="@drawable/ic_menu_obleg"
+                android:title="Observatorio Legislativo" />
+            <item
+                android:id="@+id/nav_contacto"
+                android:icon="@drawable/ic_menu_contacto"
+                android:title="Contacto" />
+        </menu>
+    </item>
+
+</menu>
